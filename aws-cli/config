@@ -1,3 +1,6 @@
-[default]
+[profile adminuser]
+aws_access_key_id=AKIAIOTEDPI2BY4XFJSQ
+aws_secret_access_key=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
 region=us-east-1
 output=json
+

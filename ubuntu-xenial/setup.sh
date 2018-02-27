@@ -13,6 +13,7 @@ cp ${MYDIR}/vimrc ~/.vimrc
 # Update and install required packages
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install -y tmux vim python-pip python3-pip
+sudo apt-get install -y npm
 
 # Setup pip
 pip2 install --upgrade pip
