@@ -14,6 +14,9 @@ cp ${MYDIR}/vimrc ~/.vimrc
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install -y tmux vim python-pip python3-pip
 sudo apt-get install -y npm
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt-get update
+sudo apt-get install -y python3.6
 
 # Setup pip
 pip2 install --upgrade pip
